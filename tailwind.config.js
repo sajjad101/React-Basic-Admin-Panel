@@ -6,11 +6,6 @@ module.exports = {
   theme: {
     extend: {}
   },
-  daisyui: {
-    themes: [
-      'dark' // set dark as the default theme
-      // You can include other themes if needed, like "light", "cupcake", etc.
-    ]
-  },
-  plugins: [require('daisyui')]
+  daisyui: {},
+  plugins: []
 }

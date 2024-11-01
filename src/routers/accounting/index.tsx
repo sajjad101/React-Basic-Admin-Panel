@@ -1,5 +1,6 @@
 import {  Navigate } from "react-router-dom";
 import Login from '@/features/accounting/login'; 
+import Register from '@/features/accounting/Register'; 
 
 const accountingRoutes = [
   {
@@ -9,6 +10,10 @@ const accountingRoutes = [
   {
     index: true,
     element: <Navigate to="/login" replace />
+  },
+  {
+    path: "/register",
+    element: <Register />,
   }
 ];
 
