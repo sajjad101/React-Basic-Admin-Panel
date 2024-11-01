@@ -1,4 +1,4 @@
-# Admin Panel Starter
+# React Basic Admin Panel
 
 Welcome to the **React Basic Admin Panel** project! This is a basic admin panel built using **React.js**, **TypeScript**, **Tailwind CSS**, and **React Router**. The goal of this project is to create a flexible and easy-to-use admin panel framework that can be extended and customized for various use cases.
 
