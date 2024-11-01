@@ -16,7 +16,7 @@ To get started with this project, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/sajjad101/admin-panel.git
+   git clone https://github.com/sajjad101/React-Basic-Admin-Panel.git
    ```
 
 2. Navigate to the project directory:
