@@ -1,6 +1,6 @@
 # Admin Panel Starter
 
-Welcome to the **Admin Panel Starter** project! This is a basic admin panel built using **React.js**, **TypeScript**, **Tailwind CSS**, and **React Router**. The goal of this project is to create a flexible and easy-to-use admin panel framework that can be extended and customized for various use cases.
+Welcome to the **React Basic Admin Panel** project! This is a basic admin panel built using **React.js**, **TypeScript**, **Tailwind CSS**, and **React Router**. The goal of this project is to create a flexible and easy-to-use admin panel framework that can be extended and customized for various use cases.
 
 ## Technologies Used
 
@@ -22,7 +22,7 @@ To get started with this project, follow these steps:
 2. Navigate to the project directory:
 
    ```bash
-   cd admin-panel-starter
+   cd admin-panel
    ```
 
 3. Install dependencies:
@@ -41,7 +41,7 @@ To get started with this project, follow these steps:
 
 ## Contributing
 
-This is a work-in-progress project, and **your contributions are welcome**! If you are interested in helping me complete and improve this admin panel, here are a few ways you can contribute:
+This is a work-in-progress project! If you are interested in helping me complete and improve this admin panel, here are a few ways you can contribute:
 
 - **Report issues**: If you encounter bugs or issues, please open a GitHub issue.
 - **Suggest features**: I'm open to suggestions for new features and improvements.
@@ -59,10 +59,5 @@ Some features I plan to add in the future include:
 
 If you would like to help me implement any of these features, or if you have ideas for other improvements, please reach out!
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Thank you for checking out the **Admin Panel Starter**! Let's work together to build something great. 💻✨
+Thank you for checking out the **React Basic Admin Panel**! Let's work together to build something great. 💻✨
