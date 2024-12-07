@@ -1,19 +1,32 @@
+import { useEffect, useState } from 'react';
+import { fetchUsers } from '@/services/api/apiService';
 
-function Login() {
+const UserList = () => {
+  const [users, setUsers] = useState([]);
+
+  useEffect(() => {
+    const getUsers = async () => {
+      try {
+        const data = await fetchUsers();
+        setUsers(data);
+      } catch (error) {
+        console.error('Error fetching users:', error);
+      }
+    };
+
+    getUsers();
+  }, []);
+
   return (
-    <>
-      <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-lg text-center">
-          <h1 className="text-2xl font-bold sm:text-3xl">Get started today!</h1>
+    <div>
+      <h1>User List</h1>
+      <ul>
+        {users.map((user) => (
+          <li key={user.id}>{user.name}</li>
+        ))}
+      </ul>
+    </div>
+  );
+};
 
-          <p className="mt-4 text-gray-500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla eaque error neque
-            ipsa culpa autem, at itaque nostrum!
-          </p>
-        </div>
-      </div>
-    </>
-  )
-}
-
-export default Login
+export default UserList;
