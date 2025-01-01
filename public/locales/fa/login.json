@@ -1,4 +1,5 @@
 {
-    "welcome": "Bienvenue sur le tableau de bord!",
-    "logout": "Déconnexioffffn"
-  }
+  "login": "وارد حساب کاربری خود شوید!",
+  "userName": "نام کاربری",
+  "password": "رمز عبور"  
+}
